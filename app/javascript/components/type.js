@@ -1,15 +1,15 @@
 import Typed from 'typed.js';
+// "Clients have ^1500 awesome ideas in their minds",
 
 // function loadDynamicBannerText = () => {
 const typeJsBanner = () => {
 	console.log("helloooooooooo");
 	var options = {
 	  strings: ["", 
-	  	"^1000 Web Development is the closest thing to  ^2000 magic", 
-	  	"Clients have ^1500 awesome ideas in their minds", 
-	  	"I use my ^1500 super coding skills to implement them", 
+	  	"^1000 Web Development is the closest thing to  ^1500 magic ^1500",  
+	  	"I use ^1500 my coding skills to make ^1500 your idea happen ^1500", 
 	  	"" ],
-	  typeSpeed: 45,
+	  typeSpeed: 30,
 	  smartBackspace: true
 	}
 
@@ -20,7 +20,7 @@ const showCurriculum = () => {
 	const phrase3 = document.querySelector(".phrase-3");
 	setTimeout(() => {
 		phrase3.classList.remove("hide");
-	}, 20000);
+	}, 16000);
 	
 }
 
